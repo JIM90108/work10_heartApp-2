@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB3FB49B28137D9400CB4E02 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3FB49A28137D9400CB4E02 /* Option.swift */; };
 		EB97C6A32813755B00318844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97C6A22813755B00318844 /* AppDelegate.swift */; };
 		EB97C6A52813755B00318844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97C6A42813755B00318844 /* SceneDelegate.swift */; };
 		EB97C6A72813755B00318844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97C6A62813755B00318844 /* ViewController.swift */; };
 		EB97C6AA2813755B00318844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB97C6A82813755B00318844 /* Main.storyboard */; };
 		EB97C6AC2813755D00318844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB97C6AB2813755D00318844 /* Assets.xcassets */; };
 		EB97C6AF2813755D00318844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB97C6AD2813755D00318844 /* LaunchScreen.storyboard */; };
+		EB97C6B72813759400318844 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97C6B62813759400318844 /* ResultViewController.swift */; };
+		EB97C6B928137C5F00318844 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97C6B828137C5F00318844 /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB3FB49A28137D9400CB4E02 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		EB97C69F2813755B00318844 /* work10_heartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = work10_heartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97C6A22813755B00318844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB97C6A42813755B00318844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		EB97C6AB2813755D00318844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB97C6AE2813755D00318844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB97C6B02813755D00318844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB97C6B62813759400318844 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EB97C6B828137C5F00318844 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				EB97C6A22813755B00318844 /* AppDelegate.swift */,
 				EB97C6A42813755B00318844 /* SceneDelegate.swift */,
 				EB97C6A62813755B00318844 /* ViewController.swift */,
+				EB97C6B62813759400318844 /* ResultViewController.swift */,
 				EB97C6A82813755B00318844 /* Main.storyboard */,
+				EB97C6B828137C5F00318844 /* Questions.swift */,
+				EB3FB49A28137D9400CB4E02 /* Option.swift */,
 				EB97C6AB2813755D00318844 /* Assets.xcassets */,
 				EB97C6AD2813755D00318844 /* LaunchScreen.storyboard */,
 				EB97C6B02813755D00318844 /* Info.plist */,
@@ -141,6 +150,9 @@
 				EB97C6A72813755B00318844 /* ViewController.swift in Sources */,
 				EB97C6A32813755B00318844 /* AppDelegate.swift in Sources */,
 				EB97C6A52813755B00318844 /* SceneDelegate.swift in Sources */,
+				EB3FB49B28137D9400CB4E02 /* Option.swift in Sources */,
+				EB97C6B928137C5F00318844 /* Questions.swift in Sources */,
+				EB97C6B72813759400318844 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
